@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+
+    <!-- ROBOTO FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Resources/CSS/reset.css">
+
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <header>
+        <input type="text" placeholder="Enter a Task.." id="item">
+        <button id="add"><ion-icon class="add" name="add-outline"></ion-icon></button>
+
+    </header>
+
+    <div class="container">
+        <!-- Uncompleted tasks -->
+        <ul class="todo" id="todo">
+           <!-- <li>
+                This is an item
+                <div class="buttons">
+                    <button class="remove"><ion-icon name="trash-outline" id="remove"></ion-icon></button>
+                    <button class="complete"><ion-icon name="checkmark-circle-outline" id="to-complete"></ion-icon></button>
+                </div>
+            </li> -->
+        </ul>
+
+
+        <!-- Completed tasks -->
+        <ul class="todo" id="complete">
+            <!-- <li>
+                This is an item
+                <div class="buttons">
+                    <button class="remove"><ion-icon name="trash-outline" id="remove"></ion-icon></button>
+                    <button class="completed"><ion-icon name="checkmark-circle-outline" id="already-completed"></ion-icon></button>
+                </div>
+            </li> -->
+    
+        </ul>
+
+    </div>
+
+    
+
+
+
+
+
+<script src="Resources/JS/main.js"></script>
+
+</body>
+</html>
