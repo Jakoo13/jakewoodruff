@@ -30,15 +30,19 @@ body {
 
 
 .main-nav {
-    float: right;
     list-style: none;
-    margin-top: 55px;
-    margin-right: 80px;
+    margin-top: 20px;
+
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+.heading {
+    justify-self: center;
 }
 
 
@@ -64,19 +68,23 @@ a {
 }
 
 .container {
-    float: left;
     display: grid;
-    margin: 3rem 12rem;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px 200px;
+    grid-template-columns: 1fr;
+    grid-gap: 40px 0px;
 }
 
-.heading {
+.project h1 {
+
     margin-bottom: 10px;
-    font-size: 150%;
+    font-size: 100%;
     color: white;
     padding-top: 20px;
-    
+    justify-self: center;
+}
+
+.body {
+    justify-self: center;
+    margin-bottom: 60px;
 }
 
 .techs {
@@ -91,18 +99,45 @@ a {
     text-decoration: none;
 }   
     
-
-@media(max-width: 800px) {
-
-    .container {
-        margin: 5rem auto;
-        padding: 0 2rem;
-        grid-template-columns: 1fr;
-       
+@media only screen and (min-width: 700px) {
+    .heading {
+        justify-self: center;
+        margin-right: 60px;
+        font-size: 140%;
     }
 
+    .main-nav li {
+        margin-left: 40px;
+    }
+    
+    .body {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 30px 100px;
+    }
 }
 
+@media only screen and (min-width: 1000px) {
+    .container {
+        font-size: 130%;
+    }
+    .heading {
+        font-size: 110%;
+        justify-self: end;
+    }
+
+    .main-nav li {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .body {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px 50px;
+       
+}
+
+    
 
     
     
