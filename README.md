@@ -1,2 +1,2 @@
-# on-the-come-up
-Repo of my personal website onthecomeup.live
+# jakewoodruff.com
+Repo of my personal website jakewoodruff.com
